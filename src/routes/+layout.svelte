@@ -1,9 +1,15 @@
+<!-- Layout for All Pages -->
 <script>
-  import "../app.css";
-  </script>
+	import '../app.css'
+	import Header from './Header.svelte';
+</script>
+<div>
+	<Header></Header>
 
-<slot />
+	<main>
+		<slot></slot>
+	</main>
 
-  <style>
 
-  </style>
+</div>
+
